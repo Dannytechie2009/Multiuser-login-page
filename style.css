@@ -1,0 +1,126 @@
+/* GLOBAL RESET */
+* {
+  margin: 0; 
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: #f4f5f7;
+  padding: 20px;
+}
+
+/* FORM CONTAINER */
+.container {
+  width: 100%;
+  max-width: 400px;
+  background: white;
+  padding: 25px;
+  margin: 0 auto;
+  border-radius: 12px;
+  box-shadow: 0px 5px 20px rgba(0,0,0,0.1);
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+/* INPUTS */
+input, select {
+  width: 100%;
+  padding: 14px;
+  margin-bottom: 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+input:focus, select:focus {
+  border-color: #4285f4;
+  outline: none;
+}
+
+/* BUTTON */
+button {
+  width: 100%;
+  padding: 14px;
+  background: #4285f4;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-size: 17px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  opacity: 0.85;
+}
+
+/* MESSAGE TEXT */
+#msg, #adminMsg {
+  margin-top: 10px;
+  text-align: center;
+  color: #e63946;
+}
+
+/* TABLE STYLES */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  margin-top: 20px;
+  border-radius: 10px;
+  overflow: hidden;
+  font-size: 14px;
+}
+
+th {
+  background: #4285f4;
+  color: white;
+  padding: 12px;
+  cursor: pointer;
+}
+
+td {
+  padding: 12px;
+  border-bottom: 1px solid #eee;
+}
+
+/* SEARCH BAR */
+#search {
+  width: 100%;
+  padding: 14px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  margin-bottom: 15px;
+}
+
+/* BUTTONS IN ADMIN */
+.action-btn {
+  padding: 8px 12px;
+  background: #d90429;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.action-btn:hover {
+  background: #b3001f;
+}
+
+/* RESPONSIVE */
+@media (max-width: 600px) {
+  table {
+    font-size: 12px;
+  }
+
+  th, td {
+    padding: 8px;
+  }
+}
